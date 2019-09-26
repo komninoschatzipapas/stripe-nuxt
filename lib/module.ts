@@ -16,7 +16,7 @@ declare global {
 type Options = string;
 
 const stripeModule: Module<Options> = function(publishableKey) {
-  if (!publishableKey) {
+  if (typeof publishableKey !== 'string' || !publishableKey.length) {
     throw new Error('Please provide a publishable key to the Stripe module');
   }
 
