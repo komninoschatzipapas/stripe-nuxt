@@ -1,0 +1,36 @@
+{
+  "name": "stripe-nuxt",
+  "version": "1.0.0",
+  "description": "Stripe.js for nuxt",
+  "keywords": [
+    "stripe",
+    "nuxt"
+  ],
+  "author": "komninoschat <komninoschat@gmail.com>",
+  "homepage": "https://github.com/komninoschat/stripe-nuxt#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/komninoschat/stripe-nuxt.git"
+  },
+  "bugs": {
+    "url": "https://github.com/komninoschat/a/issues"
+  },
+  "license": "MIT",
+  "main": "dist/module.js",
+  "types": "dist/module.d.ts",
+  "scripts": {
+    "build": "npm run clean && npm run compile",
+    "clean": "rm -rf ./dist",
+    "compile": "tsc",
+    "prepare": "npm run build"
+  },
+  "devDependencies": {
+    "typescript": "^3.6.3"
+  },
+  "dependencies": {
+    "@nuxt/types": "^0.2.14",
+    "@types/stripe-v3": "^3.1.7",
+    "nuxt": "^2.9.2",
+    "vue": "^2.6.10"
+  }
+}
