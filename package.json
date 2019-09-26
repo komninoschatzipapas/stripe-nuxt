@@ -1,6 +1,6 @@
 {
   "name": "stripe-nuxt",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Stripe.js for nuxt",
   "keywords": [
     "stripe",
@@ -13,7 +13,7 @@
     "url": "git+https://github.com/komninoschat/stripe-nuxt.git"
   },
   "bugs": {
-    "url": "https://github.com/komninoschat/a/issues"
+    "url": "https://github.com/komninoschat/stripe-nuxt/issues"
   },
   "license": "MIT",
   "main": "dist/module.js",
